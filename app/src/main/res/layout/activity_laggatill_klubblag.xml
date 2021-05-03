@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="10dp"
+    tools:context=".LaggaTillKlubblag">
+
+    <EditText
+        android:id="@+id/Klubbnamninmatning"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_below="@+id/textView"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginRight="30dp"
+        android:background="@drawable/custom_input"
+        android:hint="Skriv in klubbnamn..."
+        android:paddingStart="12dp"
+        android:paddingEnd="12dp" />
+
+    <EditText
+        android:id="@+id/Klubbstadinmatning"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_below="@+id/Klubbnamninmatning"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginRight="30dp"
+        android:background="@drawable/custom_input"
+        android:hint="Skriv in klubbstad..."
+        android:paddingStart="12dp"
+        android:paddingEnd="12dp" />
+
+    <EditText
+        android:id="@+id/Klubbvinstinmatning"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_below="@+id/Klubbstadinmatning"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginRight="30dp"
+        android:background="@drawable/custom_input"
+        android:hint="Skriv in antal vunna matcher..."
+        android:paddingStart="12dp"
+        android:paddingEnd="12dp" />
+
+    <EditText
+        android:id="@+id/Klubboavgjordinmatning"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_below="@+id/Klubbvinstinmatning"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginRight="30dp"
+        android:background="@drawable/custom_input"
+        android:hint="Skriv in antal oavgjorda matcher..."
+        android:paddingStart="12dp"
+        android:paddingEnd="12dp" />
+
+    <EditText
+        android:id="@+id/Klubbforloradinmatning"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_below="@+id/Klubboavgjordinmatning"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginRight="30dp"
+        android:background="@drawable/custom_input"
+        android:hint="Skriv in antal förlorade matcher..."
+        android:paddingStart="12dp"
+        android:paddingEnd="12dp" />
+
+    <Button
+        android:id="@+id/LaggatillKlubblagknapp"
+        android:layout_width="wrap_content"
+        android:layout_height="81dp"
+        android:layout_below="@+id/Klubbforloradinmatning"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginStart="45dp"
+        android:layout_marginLeft="45dp"
+        android:layout_marginTop="45dp"
+        android:layout_marginEnd="45dp"
+        android:layout_marginRight="45dp"
+        android:text="Lägg till"
+        android:background="@drawable/rund_knapp"
+        android:textColor="@color/white"/>
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="355dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginStart="24dp"
+        android:layout_marginLeft="24dp"
+        android:layout_marginTop="43dp"
+        android:layout_marginEnd="23dp"
+        android:layout_marginRight="23dp"
+        android:gravity="center"
+        android:paddingStart="12dp"
+        android:paddingEnd="12dp"
+        android:text="Lägg till ett klubblag "
+        android:textColor="#000000"
+        android:textSize="22dp"
+        android:textStyle="bold" />
+
+
+</RelativeLayout>

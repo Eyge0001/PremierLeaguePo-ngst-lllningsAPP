@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".UppdateraKlubblag">
+
+
+    <EditText
+        android:id="@+id/UppdateraId"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="100dp"
+        android:layout_marginRight="30dp"
+        android:background="@drawable/custom_input"
+        android:hint="Skriv in klubblid från listan"
+        android:paddingStart="12dp"
+        android:paddingEnd="12dp" />
+
+    <EditText
+        android:id="@+id/UppdateraKlubbnamn"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_below="@id/UppdateraId"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="30dp"
+        android:background="@drawable/custom_input"
+        android:hint="Uppdatera till det nya klubbnamnet..."
+        android:paddingStart="12dp"
+        android:paddingEnd="12dp" />
+
+    <EditText
+        android:id="@+id/UppdateraKlubbstad"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_below="@+id/UppdateraKlubbnamn"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="30dp"
+        android:background="@drawable/custom_input"
+        android:hint="Uppdatera klubbstad..."
+        android:paddingStart="12dp"
+        android:paddingEnd="12dp" />
+
+    <EditText
+        android:id="@+id/UppdateraKlubbvinst"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_below="@+id/UppdateraKlubbstad"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="30dp"
+        android:background="@drawable/custom_input"
+        android:hint="Uppdatera antal vunna matcher..."
+        android:paddingStart="12dp"
+        android:paddingEnd="12dp" />
+
+    <EditText
+        android:id="@+id/UppdateraKlubboavgjord"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_below="@+id/UppdateraKlubbvinst"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="30dp"
+        android:background="@drawable/custom_input"
+        android:hint="Uppdatera antal oavgjorda matcher..."
+        android:paddingStart="12dp"
+        android:paddingEnd="12dp" />
+
+    <EditText
+        android:id="@+id/UppdateraKlubbForlorade"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_below="@+id/UppdateraKlubboavgjord"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="30dp"
+        android:background="@drawable/custom_input"
+        android:hint="Uppdatera antal förlorade matcher..."
+        android:paddingStart="12dp"
+        android:paddingEnd="12dp" />
+
+    <Button
+        android:id="@+id/UppdateraKlubblagknapp"
+        android:layout_width="wrap_content"
+        android:layout_height="81dp"
+        android:layout_below="@+id/UppdateraKlubbForlorade"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginStart="45dp"
+        android:layout_marginLeft="45dp"
+        android:layout_marginTop="45dp"
+        android:layout_marginEnd="45dp"
+        android:layout_marginRight="45dp"
+        android:text="Uppdatera"
+        android:background="@drawable/rund_knapp"
+        android:textColor="@color/white"/>
+
+    <TextView
+        android:id="@+id/UppdateraTitel"
+        android:layout_width="334dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginStart="32dp"
+        android:layout_marginLeft="32dp"
+        android:layout_marginTop="39dp"
+        android:layout_marginEnd="45dp"
+        android:layout_marginRight="45dp"
+        android:paddingStart="12dp"
+        android:paddingEnd="12dp"
+        android:text="Uppdatera klubblag"
+        android:textColor="#000000"
+        android:textSize="22dp"
+        android:textStyle="bold"
+        android:gravity="center"/>
+</RelativeLayout>

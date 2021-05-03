@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "990076846977",
+    "firebase_url": "https://premier-league-stallning-default-rtdb.firebaseio.com",
+    "project_id": "premier-league-stallning",
+    "storage_bucket": "premier-league-stallning.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:990076846977:android:b52b35655e5e208e5c1e80",
+        "android_client_info": {
+          "package_name": "com.example.premierleaguetabell"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "990076846977-9t95d1bpfnk5ti847rm5cnkputi51gsv.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAUFDVftT-CB9TlqEqKHvd-b-8f38EvfnA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "990076846977-9t95d1bpfnk5ti847rm5cnkputi51gsv.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
